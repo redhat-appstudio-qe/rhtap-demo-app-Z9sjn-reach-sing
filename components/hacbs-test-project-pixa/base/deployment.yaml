@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: hacbs-test-project-pixa
     spec:
       containers:
-      - image: quay.io/redhat-appstudio-qe/rhtap-demo-lcfp-tenant/rhtap-demo-app/hacbs-test-project-pixa@sha256:cede013ccb83c1829b5eb636f7c642d5276d192fda04072ea93a1135f659cee3
+      - image: quay.io/redhat-appstudio-qe/rhtap-demo-lcfp-tenant/rhtap-demo-app/hacbs-test-project-pixa@sha256:540dd0ac664c2f0f0e15089ec2d22741c84138caa3557165ffb7b06bf8c29606
         name: hacbs-jvm-build-test-project
         ports:
         - containerPort: 8081
