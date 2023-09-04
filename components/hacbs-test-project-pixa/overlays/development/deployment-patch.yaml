@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: hacbs-test-project-pixa
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-appstudio-qe/rhtap-demo-lcfp-tenant/rhtap-demo-app/hacbs-test-project-pixa@sha256:cede013ccb83c1829b5eb636f7c642d5276d192fda04072ea93a1135f659cee3
+        name: hacbs-jvm-build-test-project
+        resources: {}
+status: {}
